@@ -1,1 +1,19 @@
-{}
+defaults:
+
+childViews:
+	append: [
+		widget: 'list'
+		dataModel: '$parent'
+		childViews:
+			repeat: [
+				widget: 'anchor'
+				dataModel: '$parent'
+				bindings: 'bindings/anchor/list'
+				childViews:
+					append:[
+						widget: 'image'
+						dataModel: '$parent'
+						bindings: 'bindings/image/list'
+					]
+			]
+	]
