@@ -1,1 +1,1 @@
-var apiTemplating = require('BuzzFramework').apiTemplating(__filename);
+module.exports = require('BuzzFramework').apiTemplating(__filename);

@@ -1,9 +1,10 @@
 defaults:
+	{}
 
 childViews:
 	append: [
 		widget: 'list'
-		dataModel: '$parent'
+		dataModel: dataModel
 		childViews:
 			repeat: [
 				widget: 'anchor'
