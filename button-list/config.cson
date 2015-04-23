@@ -3,16 +3,16 @@ defaults:
 
 childViews:
 	append: [
-		widget: 'list'
+		widget: 'buzz-list'
 		dataModel: dataModel
 		childViews:
 			repeat: [
-				widget: 'anchor'
+				widget: 'buzz-anchor'
 				dataModel: '$parent'
 				bindings: 'bindings/anchor/list'
 				childViews:
 					append:[
-						widget: 'image'
+						widget: 'buzz-image'
 						dataModel: '$parent'
 						bindings: 'bindings/image/list'
 					]
