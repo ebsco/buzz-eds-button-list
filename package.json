@@ -1,6 +1,6 @@
 {
   "name": "buzz-eds-button-list",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "EDS API Devs Buzz button list widget",
   "main": "Gruntfile.js",
   "scripts": {
