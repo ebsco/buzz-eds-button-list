@@ -9,12 +9,12 @@ childViews:
 			repeat: [
 				widget: 'buzz-anchor'
 				dataModel: '$parent'
-				bindings: 'bindings/buzz-anchor/list'
+				bindings: 'bindings/list'
 				childViews:
 					append:[
 						widget: 'buzz-image'
 						dataModel: '$parent'
-						bindings: 'bindings/buzz-image/list'
+						bindings: 'bindings/list'
 					]
 			]
 	]
