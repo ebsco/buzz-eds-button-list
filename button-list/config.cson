@@ -8,7 +8,7 @@ childViews:
 		childViews:
 			repeat: [
 				widgets:
-					anchor:
+					anchors:
 						widget: 'anchor'
 						dataModel: '$parent'
 						bindings: 'list'
