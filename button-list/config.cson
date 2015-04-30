@@ -3,18 +3,21 @@ defaults:
 
 childViews:
 	append: [
-		widget: 'buzz-list'
+		widget: 'new-list'
 		dataModel: dataModel
 		childViews:
 			repeat: [
-				widget: 'buzz-anchor'
-				dataModel: '$parent'
-				bindings: 'bindings/list'
-				childViews:
-					append:[
-						widget: 'buzz-image'
+				widgets:
+					anchor:
+						widget: 'anchor'
 						dataModel: '$parent'
-						bindings: 'bindings/list'
-					]
+						bindings: 'list'
+						childViews:
+							append:[
+								widget: 'image'
+								dataModel: '$parent'
+								bindings: 'list'
+							]
+
 			]
 	]
